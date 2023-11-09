@@ -5,20 +5,22 @@
 Para começar, clone o projeto em sua máquina:
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-projeto.git
+git clone URL
 cd nome-do-projeto
 ```
 
 Preparando o Labirinto
 Após clonar o projeto, crie um arquivo TXT representando o labirinto. O formato deve seguir as seguintes diretrizes:
 
-A primeira linha representa a quantidade de linhas do labirinto.
-A segunda linha representa a quantidade de colunas do labirinto.
-O restante do arquivo deve seguir as especificações abaixo:
-#: Parede do labirinto.
-Espaço em branco: Caminho livre.
-E: Entrada do labirinto.
-S: Saída do labirinto.
+
+
+1) primeira linha representa a quantidade de linhas do labirinto.
+2) A segunda linha representa a quantidade de colunas do labirinto.
+3) O restante do arquivo deve seguir as especificações abaixo:
+4) #: Parede do labirinto.
+5) Espaço em branco: Caminho livre.
+6) E: Entrada do labirinto.
+7) S: Saída do labirinto.
 
 
 Exemplo de um labirinto simples:
@@ -35,9 +37,10 @@ E   #
 
 ```
 Executando o Programa
-Antes de rodar o programa, certifique-se de ter o arquivo TXT preparado. Em seguida, execute o programa, passando o caminho completo do arquivo como argumento:
+Antes de rodar o programa, certifique-se de ter o arquivo TXT preparado. Em seguida, execute o programa, passando o caminho completo do arquivo como no terminal:
 ```bash
-java -jar NomeDoProjeto.jar /caminho/do/arquivo.txt
+rode a main
+path/arquivo.txt
 ```
 
 
